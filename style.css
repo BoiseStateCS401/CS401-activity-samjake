@@ -1,0 +1,40 @@
+body {
+	background-color: aliceblue;
+	font-family: Courier;
+}
+pre {
+	border-style: solid;
+	background-color: blue;
+}
+h1 {
+	font-family: Times;
+	font-size: small;
+	text-align: center;
+}
+li, p {
+	color: red;
+}
+em {
+	color: blue;
+}
+li {
+	list-style-type: upper-roman;
+	margin: 2em 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border-radius: 25px;
+}
+img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+table {
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;	
+	border-style: solid;	
+}
