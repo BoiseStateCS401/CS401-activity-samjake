@@ -1,3 +1,11 @@
+header img {
+
+  width: 56px;
+  height: 56px;
+  background: #555;
+}
+
+
 body {
 	background-color: aliceblue;
 	font-family: Courier;
@@ -9,7 +17,7 @@ pre {
 h1 {
 	font-family: Times;
 	font-size: small;
-	text-align: center;
+	text-align: left;
 }
 li, p {
 	color: red;
@@ -24,10 +32,10 @@ li {
 a {
 	text-decoration: none;
 }
-img {
+#link {
 	border-radius: 25px;
 }
-img:hover {
+#link:hover {
 	opacity: 0.5;
 	filter: alpha(opacity=50);
 }

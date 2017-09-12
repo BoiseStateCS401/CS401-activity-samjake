@@ -1,50 +1,57 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
-<title> Inclass thing </title>
-<h1> Sam Bowman, Jake Krahn </h1>
-<hr>
+    <link rel="stylesheet" href="style.css">
+    <title> Inclass thing </title>
 </head>
 <body>
-Html summary <br>
-<p>
-Html is the barebones language in website developement <br>
-it handles things like text and links, and is used <br>
-to organize scripts. <br>
-</p>
-Css summary <br>
-<p>
-Css is used to make things look good on your website. <br>
-It changes the color, size, etc. of tagged things in <br>
-your html file to make them uniformly pretty <br>
-</p>
-Javascript summary <br>
-<p>
-Javascripts main fuction is to allow dynamic websites. <br>
-this allows you to have users interact with your website <br>
-</p>
-
-<a href="url">www.w3schools.com</a>
-<br>
-<a href="url">www.rapidtables.com</a>
-<br>
-<a href="url">www.codeacademy.com</a>
-<br>
-
-<a href="https://en.wikipedia.org/wiki/Dog">
-<img src="http://i.imgur.com/bRluY0z.jpg" style="width:304px;height:228px;">
-</a>
-<br>
-<em> 
-Emphasize some text somewhere 
-</em>
-<br>
-<strong>
-Strong Text
-</strong>
-<br>
-<pre>
+<header>
+    <img id="logo" src="https://i.imgur.com/31c156b.jpg" alt="logo?">
+    <span id="Name">
+         Sam Bowman
+         </span>
+    <hr>
+</header>
+<nav id="topnav">
+    <a href='#' class='button'>Home</a>
+    <a href='#' class='button'>Summary</a>
+</nav>
+<section id="summaries">
+    <h2 class="section">Html, Css, Javascript</h2>
+    <h3>Html summary</h3>
+    <p>
+        Html is the barebones language in website developement it handles things like text and links, and is used to organize scripts.
+    </p>
+    <h3>Css summary </h3>
+    <p>
+        Css is used to make things look good on your website.
+        It changes the color, size, etc. of tagged things in
+        your html file to make them uniformly pretty
+    </p>
+    <h3>Javascript summary </h3>
+    <p>
+        Javascripts main fuction is to allow dynamic websites.
+        this allows you to have users interact with your website
+    </p>
+    <a href="url">www.w3schools.com</a>
+    <a href="url">www.rapidtables.com</a>
+    <a href="url">www.codeacademy.com</a>
+</section>
+<section id="everything">
+    <h3>Favorite animal</h3>
+    <a href="https://en.wikipedia.org/wiki/Dog">
+        <img id="link" src="http://i.imgur.com/bRluY0z.jpg" style="width:304px;height:228px;">
+    </a>
+    <h3>Emphasized text</h3>
+    <em>
+        Emphasize some text somewhere.
+    </em>
+    <h3>Strong text</h3>
+    <strong>
+        Make some text Strong.
+    </strong>
+    <h3>Pre-formatted Code</h3>
+    <pre>
 /******************************************************************************
  *  Compilation:  javac HelloWorld.java
  *  Execution:    java HelloWorld
@@ -58,7 +65,7 @@ Strong Text
  *  they serve to remind us about its properties. The first two lines tell
  *  us what to type to compile and test the program. The next line describes
  *  the purpose of the program. The next few lines give a sample execution
- *  of the program and the resulting output. We will always include such 
+ *  of the program and the resulting output. We will always include such
  *  lines in our programs and encourage you to do the same.
  *
  ******************************************************************************/
@@ -72,33 +79,34 @@ public class HelloWorld {
 
 }
 </pre>
-<br>
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Bob</td>
-    <td>Bobberton</td> 
-    <td>85</td>
-  </tr>
-  <tr>
-    <td>Carl</td>
-    <td>Carlson</td> 
-    <td>90</td>
-  </tr>
-</table>
-&copy; samjake team
-<ul>
-<li> body, preformated code, bullet point </li>
-<li> 8px </li>
-<li> 2em, bold</li>
-<li> 14ms </li>
-<li> inspect the page, go to network tab, click on the image </li>
-</ul>
-
-
+    <h3>Table</h3>
+    <table style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>Bobberton</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Carl</td>
+            <td>Carlson</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <h3>Copyright</h3>
+    &copy; samjake team
+    <h3>Bulleted List</h3>
+    <ul>
+        <li> body, preformated code, bullet point </li>
+        <li> 8px </li>
+        <li> 2em, bold</li>
+        <li> 14ms </li>
+        <li> inspect the page, go to network tab, click on the image </li>
+    </ul>
+</section>
 </body>
 <html>
